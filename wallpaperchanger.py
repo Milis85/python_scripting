@@ -15,7 +15,7 @@ crontab -e
 
 # run it each 30 minutes
 crontab -l
-30 * * * * /home/miluska/test/wallpaperchanger.py
+*/30 * * * * /home/miluska/test/wallpaperchanger.py
 
 """
 from optparse import OptionParser
